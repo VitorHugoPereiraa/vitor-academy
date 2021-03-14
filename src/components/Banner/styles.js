@@ -16,8 +16,9 @@ export const Center = styled.div`
   width: 1280px;
   height: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin-top: 19px auto;
+  
 `
 
 export const Form = styled.form`
@@ -101,4 +102,35 @@ export const SendButton = styled.button`
         background-color: #6f2e85;
         color: #fff;
     }
+`
+
+export const TitleBannerContainer = styled.div`
+   margin: 5% 0 0 7%;
+   width: 49%;
+
+   h2{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+        text-align: center;
+        color: #B269CB;
+        font-size: 3rem;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 10%;
+   }
+   
+   .CenterText {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10%;
+
+       .Writing{
+       color: #fff;
+       text-align: center;
+       font-size: 2.8rem;
+       font-family: 'Ranchers', cursive;
+       color: #FFF;
+     }  
+   }
+
+  
 `
