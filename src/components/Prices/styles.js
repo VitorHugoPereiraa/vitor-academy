@@ -38,8 +38,10 @@ export const PriceContainer = styled.div`
     flex-direction: column;
     margin-bottom: 4rem;
 
+
     h3{
       font-size: 2rem;
+      z-index: 999;
       font-family: 'Roboto', sans-serif;
       color: #B269CB;
     }
@@ -55,6 +57,7 @@ export const ContainerInfo = styled.div`
     #div-content{
         flex: 3;
         margin-top: 2rem;
+        z-index: 999;
 
         p{
             color: #fafafa;
@@ -69,6 +72,7 @@ export const ContainerBuy = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-end ;
+    z-index: 999;
 
     p{
       font-size: 1.5rem;
@@ -103,11 +107,12 @@ export const Button = styled.button`
     color:  #7CFC00;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    cursor: pointer;
+    z-index: 999;
 
     :hover{
         background-color: #7CFC00 ;
-        color:  inherit;
+        color:  #39363A;
+        cursor: pointer;
 
     }
 `

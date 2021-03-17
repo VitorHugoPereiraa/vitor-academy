@@ -97,7 +97,7 @@ const iconContainer = useRef('')
   );
 }
 
-function sla(){
+function scrollList(){
   setTimeout(()=>{
     const LinguagesContainer =  document.getElementById('iconContainerr')
     LinguagesContainer.addEventListener('wheel', event => {
@@ -110,5 +110,5 @@ function sla(){
   }, 0)
 }
 
-sla()
+scrollList()
 export default Linguages;

@@ -1,5 +1,7 @@
 import React from 'react';
 import { AiFillStar } from 'react-icons/ai';
+import ReactParticles from 'react-particles-js';
+import particlesConfig from './particles-config.js';
 
 import { Container, Center, PriceContainer, ContainerInfo, ContainerBuy, Button } from './styles';
 
@@ -7,6 +9,17 @@ import { Container, Center, PriceContainer, ContainerInfo, ContainerBuy, Button 
 function Prices() {
     return (
         <Container>
+            <ReactParticles
+                params={particlesConfig}
+                style={{
+                    position: 'absolute',
+                    zIndex: 1,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    top: 0
+                }}
+            />
             <div id="divIcon">
                 <AiFillStar color="yellow" size="4.5rem" />
             </div>
@@ -27,7 +40,7 @@ function Prices() {
                         <ContainerBuy>
                             <p> De <span>R$299,00</span></p>
                             <p id="final_text_price">por apenas <span id="final_price">R$55,99</span> </p>
-                            <Button>COMPRAR !</Button>
+                            <Button> COMPRAR !</Button>
                         </ContainerBuy>
 
                     </ContainerInfo>
@@ -55,19 +68,20 @@ function Prices() {
                         <ContainerBuy>
                             <p> De <span>R$399,00</span></p>
                             <p id="final_text_price">por apenas <span id="final_price">R$65,99</span> </p>
-                            <Button>COMPRAR !</Button>
+                            <Button> COMPRAR !</Button>
                         </ContainerBuy>
 
                     </ContainerInfo>
                 </PriceContainer>
                 <PriceContainer>
                     <h3> Desenvolvimento Full Stack: </h3>
+                    
 
                     <ContainerInfo>
 
                         <div id="div-content">
-                        <p>Aprenda a desenvolver aplicações web você irá aprender a desenvolver sistemas web completos com HTML, CSS, Bootstrap, JavaScript, Jquery, PHP, Orientação a Objetos e MySQL
-                        e desenvolva aplicativos de todos os tipos para todas as plataformas.
+                            <p>Aprenda a desenvolver aplicações web você irá aprender a desenvolver sistemas web completos com HTML, CSS, Bootstrap, JavaScript, Jquery, PHP, Orientação a Objetos e MySQL
+                            e desenvolva aplicativos de todos os tipos para todas as plataformas.
                             Prepare o seu ambiente de trabalho e domine a criação de aplicativos Android e IOS.
                             Domine JavaScript, React, Node, Android Studio, Visual Studio Code e mais...
 
@@ -84,12 +98,13 @@ function Prices() {
                         <ContainerBuy>
                             <p> De <span>R$599,00</span></p>
                             <p id="final_text_price">por apenas <span id="final_price">R$99,99</span> </p>
-                            <Button>COMPRAR !</Button>
+                            <Button> COMPRAR !</Button>
                         </ContainerBuy>
 
                     </ContainerInfo>
                 </PriceContainer>
             </Center>
+            
         </Container>
     );
 }
