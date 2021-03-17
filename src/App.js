@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Banner from './components/Banner'
 import Linguages from './components/Linguages'
 import Prices from './components/Prices'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Linguages />
       <Prices />
+      <Footer />
     </div>
   )
 }
