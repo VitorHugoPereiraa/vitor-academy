@@ -18,7 +18,7 @@ function Prices() {
                     right: 0,
                     bottom: 0,
                     top: 0
-                }}
+                }} 
             />
             <div id="divIcon">
                 <AiFillStar color="yellow" size="4.5rem" />

@@ -28,6 +28,13 @@ export const Center = styled.div`
       margin: 2rem 0 4rem 0;
 
   }
+  @media(max-width: 360px) {
+    padding: 0;
+  }
+
+  @media(max-width: 768px) {
+  
+  }
 `
 export const PriceContainer = styled.div`
     width: 100%;
@@ -44,12 +51,21 @@ export const PriceContainer = styled.div`
       z-index: 999;
       font-family: 'Roboto', sans-serif;
       color: #B269CB;
+
+      @media(max-width: 768px) {
+        font-size: 2rem;
+        text-align: center;
+}
     }
+
 `
 export const ContainerInfo = styled.div`
     width: 100%;
     display: flex;
 
+    @media(max-width: 768px) {
+      flex-direction: column;
+}
     div{
         flex: 1;
         
@@ -73,6 +89,12 @@ export const ContainerBuy = styled.div`
     flex-direction: column;
     align-items: flex-end ;
     z-index: 999;
+
+    @media(max-width: 768px) {
+    align-items: center ;
+    margin-top: 2rem;
+       
+}
 
     p{
       font-size: 1.5rem;

@@ -33,6 +33,10 @@ export const Center = styled.div`
 
 export const Form = styled.form`
 
+@media(min-width: 1024px) {
+   display: none;
+  }
+
     width: 400px;
     height: calc(100% + 30px);
     background-color: #39363A;

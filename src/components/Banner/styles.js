@@ -17,7 +17,12 @@ export const Center = styled.div`
   justify-content: space-around;
   margin-top: 19px auto;
   
-  @media(max-width: 375px) {
+  @media(max-width: 360px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media(max-width: 768px) {
     justify-content: center;
     align-items: center;
   }
@@ -33,7 +38,7 @@ export const Form = styled.form`
     border-radius: 5px;
     padding: 30px 20px;
 
-    @media(max-width: 375px) {
+  @media(max-width: 1024px) {
    display: none;
   }
     h2{
@@ -44,6 +49,7 @@ export const Form = styled.form`
         text-align: center;
         color: #fff;
     }
+
 `
 export const FormPOST = styled.form`
     width: 100%;
@@ -106,7 +112,7 @@ export const TitleBannerContainer = styled.div`
    margin: 5% 0 0 0;
    width: 49%;
    
-   @media(max-width: 375px) {
+   @media(max-width: 360px) {
     width: 100%;
   }
 
@@ -118,7 +124,7 @@ export const TitleBannerContainer = styled.div`
         font-family: 'Roboto', sans-serif;
         margin-top: 10%;
 
-    @media(max-width: 375px) {
+    @media(max-width: 360px) {
         margin: 0;
         font-size: 2.5rem;
         display: flex;
