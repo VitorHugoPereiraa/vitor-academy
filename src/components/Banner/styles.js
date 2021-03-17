@@ -5,13 +5,11 @@ import header_bg from '../../assets/img/header-bg.jpg'
 export const Container = styled.div`
   width: 100%;
   height: 557px;
-  background-image: url(${header_bg});
+  background-image: url(${header_bg}); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
 `;
-
 export const Center = styled.div`
   width: 100%;
   height: 100%;
@@ -19,10 +17,13 @@ export const Center = styled.div`
   justify-content: space-around;
   margin-top: 19px auto;
   
+  @media(max-width: 375px) {
+    justify-content: center;
+    align-items: center;
+  }
+
 `
-
 export const Form = styled.form`
-
     width: 400px;
     height: calc(100% + 30px);
     position: relative;
@@ -32,10 +33,11 @@ export const Form = styled.form`
     border-radius: 5px;
     padding: 30px 20px;
 
-
+    @media(max-width: 375px) {
+   display: none;
+  }
     h2{
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ranchers&display=swap');
-
         font-size: 22px;
         font-family: 'Ranchers', cursive;
         font-weight: 300;
@@ -49,19 +51,15 @@ export const FormPOST = styled.form`
     display: flex;
     flex-direction: column;
     align-items:center;
-
     h2{
         margin: 10px;
     }
 `
-
 export const ContainerInputs = styled.div`
     width: 100%;
     display: flex;
     margin: 20px 0;
-
 `
-
 export const IconsContainer = styled.div`
     width: 80px;
     height: 50px;
@@ -107,6 +105,10 @@ export const SendButton = styled.button`
 export const TitleBannerContainer = styled.div`
    margin: 5% 0 0 0;
    width: 49%;
+   
+   @media(max-width: 375px) {
+    width: 100%;
+  }
 
    h2{
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
@@ -115,6 +117,16 @@ export const TitleBannerContainer = styled.div`
         font-size: 3rem;
         font-family: 'Roboto', sans-serif;
         margin-top: 10%;
+
+    @media(max-width: 375px) {
+        margin: 0;
+        font-size: 2.5rem;
+        display: flex;
+
+        h2{
+            flex: 1;
+        }
+  }
    }
    
    .CenterText {
@@ -130,7 +142,5 @@ export const TitleBannerContainer = styled.div`
        font-family: 'Ranchers', cursive;
        color: #FFF;
      }  
-   }
-
-  
+   }  
 `

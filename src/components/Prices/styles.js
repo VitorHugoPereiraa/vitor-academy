@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Center = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ranchers&display=swap');
 
-  width: 1280px;
+  width: 100%;
   height: 100%;
   padding: 5%;
 

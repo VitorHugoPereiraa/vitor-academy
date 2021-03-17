@@ -22,7 +22,7 @@ function Banner() {
                 <TitleBannerContainer>
 
                     <h2> Aprenda e comece a trabalhar com : </h2>
-                    <div className="CenterText">
+                    <div className="CenterText"> 
                         <Typed
                             loop
                             strings={["Desenvolvimento Front-End",

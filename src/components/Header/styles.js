@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Center = styled.div`
-  width: 1280px;
+  width: 100%;
   margin-top: 19px auto;
   color: #fff;
   
