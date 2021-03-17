@@ -1,0 +1,43 @@
+
+> tsparticles@1.20.1 install C:\Users\travi\Desktop\programming\react\landingpage\node_modules\tsparticles
+> node ./scripts/install.js
+
+Thank you for installing tsParticles.
+Remember to checkout the official website https://particles.js.org to explore some samples.
+You can find more samples on CodePen too: https://codepen.io/collection/DPOage
+If you need documentation you can find it here: https://particles.js.org
+Remember to leave a star on the tsParticles repository if you like the project and want to support it: https://github.com/matteobruni/tsparticles
+
+> core-js@2.6.12 postinstall C:\Users\travi\Desktop\programming\react\landingpage\node_modules\babel-runtime\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js@3.9.1 postinstall C:\Users\travi\Desktop\programming\react\landingpage\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.9.1 postinstall C:\Users\travi\Desktop\programming\react\landingpage\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall C:\Users\travi\Desktop\programming\react\landingpage\node_modules\ejs
+> node ./postinstall.js
+
+Thank you for installing [35mEJS[0m: built with the [32mJake[0m JavaScript build tool ([32mhttps://jakejs.com/[0m)
+
++ react-is@17.0.1
+added 338 packages from 86 contributors, removed 231 packages, updated 1477 packages and audited 1830 packages in 243.829s
+
+133 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
