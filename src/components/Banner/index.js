@@ -41,7 +41,7 @@ function Banner() {
                             loopCount={0}
                             showCursor
                             cursorChar="|"
-                            className="Writing"
+                            className="Writing" 
                         />
                     </div>
                 </TitleBannerContainer>

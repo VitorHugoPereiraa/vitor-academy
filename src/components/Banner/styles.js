@@ -13,10 +13,10 @@ export const Container = styled.div`
 `;
 
 export const Center = styled.div`
-  width: 1280px;
+  width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 19px auto;
   
 `
@@ -105,7 +105,7 @@ export const SendButton = styled.button`
 `
 
 export const TitleBannerContainer = styled.div`
-   margin: 5% 0 0 7%;
+   margin: 5% 0 0 0;
    width: 49%;
 
    h2{

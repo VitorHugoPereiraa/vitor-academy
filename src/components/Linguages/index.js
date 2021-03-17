@@ -5,7 +5,7 @@ import { FaSass } from 'react-icons/fa';
 import { SiJavascript, SiReact, SiAngularjs, SiFlutter, SiPython, SiDjango } from 'react-icons/si';
 
 import { Container, Center, CenterIcons } from './styles';
-
+ 
 function Linguages() {
 
 const iconContainer = useRef('')
